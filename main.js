@@ -30,7 +30,7 @@ function typeWriter() {
     setTimeout(typeWriter, 500);
     return;
   }
-  setTimeout(typeWriter, isDeleting ? 100 : isEnd ? 2000 : 200);
+  setTimeout(typeWriter, isDeleting ? 100 : isEnd ? 2000 : 140);
 }
 typeWriter();
 
@@ -58,3 +58,4 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   alert('Thank you for your message! I will get back to you soon.');
   this.reset();
 });
+
