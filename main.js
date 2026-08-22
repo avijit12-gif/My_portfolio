@@ -1,10 +1,10 @@
 // Typewriter effect
 const typewriterElement = document.getElementById('typewriter');
 const professions = [
+  'Entrepreneur',
+  'Business Analyst',
+  'Data Analyst',
   'Cybersecurity Enthusiast',
-  'Learning Ethical Hacker',
-  'Learning Security Analyst',
-  'Learning Penetration Tester'
 ];
 let i = 0, j = 0, currentProfession = '', isDeleting = false, isEnd = false;
 
